@@ -7,7 +7,12 @@
     "serve": "vite preview"
   },
   "devDependencies": {
+    "browserify-zlib": "^0.2.0",
+    "events": "^3.3.0",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
     "typescript": "^4.4.3",
+    "util": "^0.12.4",
     "vite": "^2.5.10"
   },
   "dependencies": {
