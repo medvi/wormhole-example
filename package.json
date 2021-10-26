@@ -1,0 +1,20 @@
+{
+  "name": "sol",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.3",
+    "vite": "^2.5.10"
+  },
+  "dependencies": {
+    "@certusone/wormhole-sdk": "0.0.7",
+    "@metamask/detect-provider": "^1.2.0",
+    "@solana/web3.js": "^1.29.3",
+    "buffer": "^6.0.3",
+    "ethers": "^5.5.1"
+  }
+}
